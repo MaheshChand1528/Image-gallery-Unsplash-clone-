@@ -7,6 +7,7 @@ import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import { saveAs } from "file-saver";
 
 const Image = ({ key, imgSrc, f_name, l_name, insta, profile_img, likes }) => {
+
   const [modal, setModal] = useState(false);
 
   const toggleModal = () => {

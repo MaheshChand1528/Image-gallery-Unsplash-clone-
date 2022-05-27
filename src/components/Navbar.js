@@ -31,6 +31,7 @@ const Navbar = ({ isActive, setIsActive, value, setValue }) => {
               <div className="Navbar-input-container">
                 <SearchIcon className="Navbar-search-icon" />
                 <input
+                  style={{color: isActive ? "white" : "black"}}
                   className="Navbar-input"
                   placeholder="Search images here"
                   value={value}
