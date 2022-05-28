@@ -129,6 +129,10 @@ body.active-modal {
   font-weight: 600;
 }
 
+.share-btn:hover{
+  background-color: rgba(255,255,255,0.3);
+}
+
 .info-btn {
     color: white;
   width: 70px;
@@ -145,4 +149,8 @@ body.active-modal {
   left: 115px;
   cursor: pointer;
   font-weight: 600;
+}
+
+.info-btn:hover{
+  background-color: rgba(255,255,255,0.3);
 }
